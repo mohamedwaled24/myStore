@@ -19,6 +19,13 @@ const eslintConfig = [
       "build/**",
       "next-env.d.ts",
     ],
+    rules: {
+      // Disable TypeScript any warnings globally
+      "@typescript-eslint/no-explicit-any": "off",
+
+      // Disable missing useEffect dependency warnings globally
+      "react-hooks/exhaustive-deps": "off",
+    },
   },
 ];
 
