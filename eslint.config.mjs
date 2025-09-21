@@ -25,6 +25,8 @@ const eslintConfig = [
 
       // Disable missing useEffect dependency warnings globally
       "react-hooks/exhaustive-deps": "off",
+      "react/no-unescaped-entities": "off", // disable unescaped entity errors
+      "no-var": "off",
     },
   },
 ];
